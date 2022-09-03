@@ -6,24 +6,19 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "start:render": "node server.js",
     "build": "strapi build",
-    "build:win": "cross-env NODE_ENV=production yarn build",
-    "strapi": "strapi",
-    "prod": "pm2 start server.js"
+    "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "@notum-cz/strapi-plugin-content-versioning": "^0.4.3",
-    "@spotodo0/strapi-google-auth": "^0.1.7",
     "@strapi/plugin-graphql": "4.3.6",
     "@strapi/plugin-i18n": "4.3.6",
     "@strapi/plugin-seo": "^1.7.4",
     "@strapi/plugin-users-permissions": "4.3.6",
     "@strapi/provider-email-sendgrid": "^4.3.6",
+    "@strapi/provider-upload-cloudinary": "^4.3.6",
     "@strapi/strapi": "4.3.6",
     "@strapi/typescript-utils": "^4.3.6",
-    "cross-env": "^7.0.3",
     "pg": "^8.8.0",
     "strapi-plugin-cloudflare-pages": "^0.4.1",
     "strapi-plugin-comments": "^2.1.8",
