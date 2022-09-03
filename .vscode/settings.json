@@ -4,6 +4,7 @@
         "CLOUDINARY",
         "coderage",
         "PROXIED",
+        "sameorigin",
         "SENDGRID",
         "strapi"
     ]

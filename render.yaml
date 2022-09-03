@@ -9,6 +9,12 @@ services:
     buildCommand: yarn install && yarn build
     startCommand: yarn start
     healthCheckPath: /_health
+    domains:
+      - test.coderage.pro
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: sameorigin
     envVars:
       - key: NODE_VERSION
         value: ~16.17.0
