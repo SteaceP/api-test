@@ -14,21 +14,22 @@ export default [
       },
     },
   },
-  {
-    name: 'strapi::cors',
-    config: {
-      origin: ['https://dockerserver.com', 'https://api.dockerservers.com', 'https://api.dockerservers.com/graphql', 'https://coderage.pro', 'http://localhost:3000', 'https://coderage.pro', 'https://test.coderage.pro/graphql', 'https://test.coderage.pro'],
-      methods: ['GET', 'POST', 'PUT', 'DELETE', 'HEAD', 'OPTIONS'],
-      headers: '*',
-      keepHeaderOnError: true,
-    },
-  },
+  // {
+  //   name: 'strapi::cors',
+  //   config: {
+  //     origin: ['https://dockerserver.com', 'https://api.dockerservers.com', 'https://api.dockerservers.com/graphql', 'https://coderage.pro', 'http://localhost:3000', 'https://coderage.pro', 'https://test.coderage.pro/graphql', 'https://test.coderage.pro'],
+  //     methods: ['GET', 'POST', 'PUT', 'DELETE', 'HEAD', 'OPTIONS'],
+  //     headers: '*',
+  //     keepHeaderOnError: true,
+  //   },
+  // },
   {
     name: 'strapi::poweredBy',
     config: {
       poweredBy: 'Code Rage API'
     },
   },
+  "strapi::cors",
   "strapi::logger",
   "strapi::query",
   "strapi::body",

@@ -2,7 +2,8 @@ services:
   - type: web
     name: strapi
     env: node
-    repo: https://github.com/SteaceP/coderage-backend.git
+    repo: https://github.com/SteaceP/api-test.git
+    region: ohio
     plan: starter
     branch: main
     buildCommand: yarn install && yarn build
