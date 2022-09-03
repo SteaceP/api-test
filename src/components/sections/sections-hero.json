@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_sections_heroes",
+  "info": {
+    "displayName": "Sections.hero",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
