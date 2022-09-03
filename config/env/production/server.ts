@@ -1,5 +1,4 @@
 export default ({ env }) => ({
-  url: "https://api.coderage.pro",
+  url: "https://test.coderage.pro",
   emitErrors: false,
-  proxy: env.bool('IS_PROXIED'),
 });

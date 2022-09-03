@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@notum-cz/strapi-plugin-content-versioning": "^0.4.3",
+    "@strapi/logger": "^4.3.6",
     "@strapi/plugin-graphql": "4.3.6",
     "@strapi/plugin-i18n": "4.3.6",
     "@strapi/plugin-seo": "^1.7.4",
